@@ -2226,18 +2226,7 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			display: inline-block;
-			font-style: normal;
-			font-variant: normal;
-			text-rendering: auto;
-			line-height: 1;
-			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
-		}
+	
 
 		.icon > .label {
 			display: none;
@@ -2291,23 +2280,23 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #21295C;
 		}
 
 		.icon.style2 {
-			color: #c79cc8;
+			color: #1B3B6F;
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #065A82;
 		}
 
 		.icon.style4 {
-			color: #9bb2e1;
+			color: #1C7293;
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #9EB3C2;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2814,13 +2803,13 @@ input, select, textarea {
 	}
 
 		.features li {
-			width: calc(33.33333% - 2em);
+			width: calc(33.33333% - 7em);
 			margin-left: 2em;
 			margin-top: 3em;
 			padding: 0;
 		}
 
-			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
+			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3), .features li:nth-child(4) {
 				margin-top: 0;
 			}
 
@@ -2866,6 +2855,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		flex-direction: column;
 		width: 100%;
 		margin: 0 0 3em 0;
 		padding: 0;
@@ -2884,23 +2874,23 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #21295C;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #1B3B6F;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #065A82;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #1C7293;
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #9EB3C2;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3783,3 +3773,28 @@ input, select, textarea {
 			}
 
 		}
+
+
+.projects-li {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.projects-li div {
+		text-align: left;
+		padding: 20px;
+}
+
+.projects-images {
+	display: block;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+
+.projects-links {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
