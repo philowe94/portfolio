@@ -3786,9 +3786,14 @@ input, select, textarea {
 		padding: 20px;
 }
 
+.projects-li strong a{
+	line-height: 2;
+}
+
 .projects-images {
 	display: block;
   max-height: 300px;
+  max-width: 430px;
   width: auto;
   height: auto;
 }
