@@ -1,15 +1,15 @@
-#Portfolio
+# Portfolio
 
 This is the source code for my portfolio. It is based on a template called Stellar made by HTML5 UP.
 The description of Stellar provided in its readme can be found below.
 
 This portfolio is being hosted on GitHub Pages and can be found at [https://philowe94.github.io/portfolio/](https://philowe94.github.io/portfolio/)
 
-#Deployment
+## Deployment
 Once setting up github pages, just push to the main branch.
 
 
-#Stellar Readme
+# Stellar Readme
 
 Stellar by HTML5 UP
 html5up.net | @ajlkn
